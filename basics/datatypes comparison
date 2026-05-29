@@ -1,0 +1,23 @@
+// console.log(2>1);
+// console.log(2>=1);
+// console.log(2<1);
+// console.log(2==1);
+// console.log(2!=1);
+
+// here the datatypes for both value are same
+
+console.log("2">1);//output=true
+console.log("02">1);//output=true
+
+// here both the datatypes are different but js has the power to change ot and use accordingly
+// keep in mind never compare different data types.
+
+console.log(null>0);//output=false
+console.log(null==0);//output=false
+console.log(null>=0);//output=true
+
+// here <,> operators transforms null into a number (0), but >=, is true because null , is not greater tahn 0 or nor smaller , it is somewhere greater than equalto.
+
+// it will go same for the undefined values
+
+//  === this comparison strictly checks the data and the datatypes , if they are same or not.
