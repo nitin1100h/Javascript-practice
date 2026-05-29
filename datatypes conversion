@@ -1,0 +1,16 @@
+let score ="33nmd"//number
+console.log(typeof score)// output=string
+
+let invalue=Number(score)// changes it into number
+console.log(typeof invalue)// output=number . Though it is a string.
+console.log(invalue)// output = NaN . means not a number  , so always check the value with this method.
+
+
+
+
+//Final conversions looks like
+//"33"=>33
+//"33nmd" => NaN
+//true =>1,false=>0
+//""=>false ,in boolean transformation
+//"name"=>true
