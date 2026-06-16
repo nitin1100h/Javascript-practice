@@ -16,7 +16,7 @@ console.log(Math.floor(Date.now()/1000));
 
 /* we can get many customisation in extracting the customised value in input*/
 
-console.log(myDtae.);// here we will get many options use according to your choice.
+console.log(myDtae);// here we will get many options use according to your choice.
 
 // we can use dates in string concatination
 
