@@ -1,5 +1,3 @@
-//singleton
-
 //object literals
 
 const jsuser = {
@@ -51,4 +49,7 @@ jsuser.greeting2 = function(){
 
 console.log(jsuser.greeting());
 console.log(jsuser.greeting2());
+
+/********************************************************************************************************** */
+
 
